@@ -42,4 +42,5 @@ executable HaskellProject
     hs-source-dirs:     app
     other-modules:
         Server
+        TestModule
     default-language:   Haskell2010
