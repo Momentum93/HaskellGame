@@ -3,8 +3,9 @@ import Server
 
 import System.Process
 
+import Folder1.Foo1
 
 main :: IO ()
 main = do
-    
-    putStrLn "main Server"
+    foo
+    putStrLn "main Server1"

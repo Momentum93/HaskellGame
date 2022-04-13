@@ -1,5 +1,5 @@
 source-repository-package
   type: git
-  location: https://github.com/Momentum93/Message_Repo.git
+  location: https://github.com/Momentum93/message-repo.git
 
 packages: ./HaskellProject.cabal

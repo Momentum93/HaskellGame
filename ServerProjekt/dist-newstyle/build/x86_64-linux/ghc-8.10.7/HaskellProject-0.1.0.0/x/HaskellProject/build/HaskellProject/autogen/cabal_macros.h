@@ -40,6 +40,16 @@
   (major1) == 1 && (major2) <  13 || \
   (major1) == 1 && (major2) == 13 && (minor) <= 2)
 #endif /* MIN_VERSION_gloss */
+/* package message-repo-0.1.0.0 */
+#ifndef VERSION_message_repo
+#define VERSION_message_repo "0.1.0.0"
+#endif /* VERSION_message_repo */
+#ifndef MIN_VERSION_message_repo
+#define MIN_VERSION_message_repo(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  1 || \
+  (major1) == 0 && (major2) == 1 && (minor) <= 0)
+#endif /* MIN_VERSION_message_repo */
 /* package network-3.1.2.7 */
 #ifndef VERSION_network
 #define VERSION_network "3.1.2.7"
